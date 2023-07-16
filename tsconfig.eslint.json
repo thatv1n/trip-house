@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["./src/**/*", "./src/*", "./webpack/**/*", "./.eslintrc.js", "./babel.config.js"],
+  "compilerOptions": {
+    "rootDir": "./"
+  }
+}

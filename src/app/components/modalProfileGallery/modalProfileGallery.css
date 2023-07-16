@@ -1,0 +1,33 @@
+.image-gallery-slides,
+.image-gallery-slide-wrapper {
+  height: 91%;
+}
+.image-gallery,
+.image-gallery-slide-wrapper {
+  height: 100%;
+}
+.image-gallery-content {
+  height: 95%;
+}
+
+.image-gallery-slide-wrapper {
+  display: grid;
+  place-items: center;
+}
+
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: calc(81vh - 80px);
+}
+.image-gallery-icon:hover {
+  color: #6c27ab;
+}
+
+.image-gallery-svg {
+  width: 70.5px !important;
+  height: 50.75px !important;
+}
+
+.image-gallery-left-nav,
+.image-gallery-right-nav {
+  padding: 0;
+}

@@ -1,0 +1,19 @@
+.leaflet-popup-tip {
+  background: rgba(0, 0, 0, 0) !important;
+  box-shadow: none !important;
+}
+.leaflet-tooltip-top:before,
+.leaflet-tooltip-bottom:before,
+.leaflet-tooltip-left:before,
+.leaflet-tooltip-right:before {
+  border: none !important;
+}
+
+.leaflet-popup-content {
+  display: flex;
+}
+
+.leaflet-marker-icon {
+  left: -20px;
+  top: -35px;
+}

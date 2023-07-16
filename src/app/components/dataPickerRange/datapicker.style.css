@@ -1,0 +1,53 @@
+.popperDataPickerRange .react-datepicker .react-datepicker__month-container {
+  width: 20rem;
+  font-size: 1.4rem;
+}
+
+.react-datepicker__time-list-item {
+  font-size: 1.4rem;
+}
+
+.react-datepicker__day {
+  margin: 0.3rem;
+  padding: 0.2rem;
+  width: 2rem;
+}
+
+.react-datepicker__current-month {
+  font-size: 1.4rem;
+}
+
+.react-datepicker__triangle {
+  display: none;
+}
+
+.react-datepicker__navigation--years-upcoming {
+  border: solid black;
+  border-width: 2px 2px 0px 0;
+  display: inline-block;
+  padding: 2px;
+  width: 10px;
+  height: 10px;
+  top: 12px;
+  margin-bottom: 1rem;
+  transform: rotate(315deg);
+}
+
+.react-datepicker__navigation--years-previous {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  width: 10px;
+  height: 10px;
+  margin-bottom: 1rem;
+  transform: rotate(45deg);
+}
+
+.popperDataPickerRange {
+  z-index: 5 !important;
+}
+
+.react-datepicker__header--time {
+  display: none;
+}

@@ -1,0 +1,18 @@
+.popperDataPickerRange .react-datepicker .react-datepicker__month-container {
+  width: 20rem;
+  font-size: 1.4rem;
+}
+
+.react-datepicker__day {
+  margin: 0.3rem;
+  padding: 0.2rem;
+  width: 2rem;
+}
+
+.react-datepicker__current-month {
+  font-size: 1.4rem;
+}
+
+.popperDataPickerRange {
+  z-index: 5 !important;
+}
